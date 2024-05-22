@@ -28,7 +28,7 @@ jobs:
     - name: "Build Spack package"
       uses: NOAA-EMC/ci-test-spack-package@develop
       with:
-        package-name: bacio
+        package-name: landsfcutil
         package-variants: +pfunit
         custom-recipe: spack/package.py
         spack-compiler: gcc
